@@ -1,0 +1,20 @@
+/* Colot theme swathes in hex */
+/* Definição da paleta de cores */
+
+:root {
+    --cor-fundo: #f0f0f0; /* Cor de fundo (cinza claro) */
+    --cor-fonte: #333333; /* Cor da fonte (preto) */
+    --cor-destaque: #ff9900; /* Cor de destaque (laranja) */
+  }
+  
+  /* Aplicando as cores aos elementos */
+  
+  body {
+    background-color: var(--cor-fundo);
+    color: var(--cor-fonte);
+  }
+  
+  .destaque {
+    color: var(--cor-destaque);
+  }
+  
